@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: Poppins;
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: "DM Sans";*/
+
+
+
+.princing .all_information h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.princing .all_information .subtitle {
+    font-family: Poppins;
+    font-size: 18px;
+    color: #535353;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.month_subscribe {
+    border: #808080 solid 1.3px;
+    border-radius: 40px;
+    max-width: 200px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+.month_subscribe p {
+    font-family: "DM Sans";
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.services ul {
+    list-style-image: url(../img/icon-park-solid_success.svg);
+
+}
+
+.services h2 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: medium;
+    text-align: left;
+    color: #fff;
+}
+
+.services h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: medium;
+    text-align: left;
+    color: #fff;
+}
+
+.services li {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+
+}
+
+.services .box {
+    background: #F6643B;
+    border-radius: 40px;
+    max-width: 236px;
+    padding: 20px;
+    height: 400px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.services .btn_buy a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    display: block;
+    max-width: 250px;
+    padding: 10px 0px;
+    background: #fff;
+    border-radius: 15px 50px;
+    margin: 0px auto;
+    border: #fff solid 2px;
+}
+
+.services .regular .btn_buy a {
+    margin-top: 175px;
+}
+
+.services .premium .btn_buy a {
+    margin-top: 115px;
+}
+
+.services .vip .btn_buy a {
+    margin-top: 31px;
+}
+
+
+.need_help_box .btn a {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 35px;
+    border-radius: 15px 50px;
+    border: 2px #fff solid;
+
+}
+
+.need_help_box .btn {
+    margin-top: 89.5px;
+}
+
+.need_help_box {
+    background: #FC552F;
+    border-radius: 60px;
+    max-width: 1000px;
+    height: 230px;
+    margin: 0px auto 100px auto;
+}
+
+.need_help_box .text h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: medium;
+    text-align: left;
+    color: #fff;
+}
+
+.need_help_box .text p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.need_help_box .text {
+    display: flex;
+    flex-direction: column;
+    margin: 78.5px 0px;
+}
+
+.need_help_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+.need_help_box .btn a:hover {
+    background: #fff;
+    color: #000;
+    transition-duration: 0.2s;
+}
+
+
+.services .btn_buy a:hover {
+    background: none;
+    color: #fff;
+    transition-duration: 0.2s;
+}
+
+
+@media screen and (max-width: 992px) {
+    .need_help_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 25px;
+    }
+
+    .need_help_box .text {
+        margin: 0px auto;
+
+    }
+
+    .need_help_box .btn {
+        margin-top: 15px;
+    }
+
+    .need_help_box h2,
+    .need_help_box p {
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    #need_help_text,
+    #need_help_title {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:410px) {
+    .need_help_box .btn a {
+        font-size: 14px;
+        padding: 13px 28px;
+    }
+}

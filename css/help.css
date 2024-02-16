@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: Poppins;
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: "DM Sans";*/
+
+.need_any_help h1{
+    color: #000;
+    font-family: Poppins;
+    font-weight: medium;
+    font-size: 48px;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.need_any_help p{
+    font-family: Poppins;
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    font-style: medium;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 700px;
+    flex-wrap: wrap;
+}
+.contact .phone{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.contact .phone svg{
+    width: 55px;
+}
+.contact .email svg{
+    width: 55px;
+}
+.contact .email{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.need_any_help{
+    margin: 0px auto 100px auto;
+    max-width: 1000px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#name{
+    max-width: 480px;
+    height: 67px;
+    background: #F4F4F6;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#mail{
+    max-width: 480px;
+    height: 67px;
+    background: #F4F4F6;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#txt_area{
+    max-width: 480px;
+    height: 159px;
+    background: #F4F4F6;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#send{
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    background: #FC552F;
+    text-decoration: none;
+    padding: 13px 35px;
+    border-radius: 15px 50px;
+    border: 2px #fff solid;
+    max-width: 480px;
+}
+
+.get_text h2{
+    color: #000;
+    font-family: Poppins;
+    font-weight: medium;
+    font-size: 48px;
+    text-align: left;
+}
+
+.get_text p{
+    font-family: Poppins;
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    font-style: medium;
+    max-width: 480px;
+}
+
+.get_in_touch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:440px) {
+    #mail{
+        width: 380px;
+    }
+    #txt_area{
+        width: 380px;
+    }
+    #send{
+        width: 380px;
+    }
+    .need_any_help h1{
+        font-size: 40px;
+    }
+    .need_any_help p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    #mail{
+        width: 330px;
+    }
+    #txt_area{
+        width: 330px;
+    }
+    #send{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width:372px) {
+    #mail{
+        width: 300px;
+    }
+    #txt_area{
+        width: 300px;
+    }
+    #send{
+        width: 300px;
+    }
+}

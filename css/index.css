@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: Poppins;
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: "DM Sans";*/
+
+
+.ai_tool_text h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-weight: medium;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ai_tool {
+    background: #030615;
+    height: 915px;
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    border-radius: 70px;
+    background-image: url(../img/Image2.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 1000px 444px;
+}
+
+.ai_tool_text p {
+    font-family: Poppins;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-style: medium;
+    margin-top: 40px;
+}
+
+.get_started_free {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 35px;
+    background: #FC552F;
+    border-radius: 15px 50px;
+    border: 2px #FC552F solid;
+    width: 230px;
+}
+
+.explore_feature {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FC552F;
+    text-decoration: none;
+    padding: 13px 35px;
+    border-radius: 15px 50px;
+    border: 2px #FC552F solid;
+    width: 230px;
+}
+
+.ai_tool_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ico_sell {
+    width: 65px;
+    height: 65px;
+    background: #30CAFB;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ico_star {
+    width: 65px;
+    height: 65px;
+    background: #FB5530;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.ico_cloud {
+    width: 65px;
+    height: 65px;
+    background: #30FB81;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.advantages_box h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: medium;
+    text-align: left;
+}
+
+.advantages_box p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #535353;
+    margin-bottom: 15px;
+}
+
+.advantages_box {
+    width: 313.33px;
+    height: 212px;
+}
+
+.more_features .first_column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 13.5px 0px;
+}
+
+.more_features {
+    max-width: 1200px;
+    margin: 0px auto 100px auto;
+}
+
+
+.more_features h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: medium;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.more_features .subtitle {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: medium;
+    color: #535353;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ico_daimond {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #46D3FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico_medal {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #FC552F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico_arrow {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #A56DFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_experience .title_and_text h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: medium;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.user_experience_text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #535353;
+    max-width: 600px;
+}
+
+.user_experience .point {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.user_experience .point .text {
+    width: 535px;
+    height: 105px;
+}
+
+.user_experience h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: medium;
+    text-align: center;
+}
+
+.user_experience .title_and_text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user_experience .all_infotmation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.user_experience {
+    padding: 0px auto 100px auto;
+    max-width: 700px;
+    margin: 0px auto;
+}
+
+.why_customers h1 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: medium;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.why_customers h1 .orange {
+    color: #FB5530;
+}
+
+.why_customers .coments .box h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: medium;
+    text-align: left;
+}
+
+.why_customers .coments .box p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #535353;
+}
+
+.why_customers .coments .box {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 285px;
+    border: #B3B3BA 1px solid;
+    border-radius: 40px;
+    padding: 20px 30px;
+    margin: 0px auto;
+}
+
+
+.need_help_box .btn a {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 35px;
+    border-radius: 15px 50px;
+    border: 2px #fff solid;
+}
+
+.need_help_box .btn {
+    margin-top: 89.5px;
+}
+
+.need_help_box {
+    background: #FC552F;
+    border-radius: 60px;
+    max-width: 1000px;
+    height: 230px;
+    margin: 100px auto 0px auto;
+}
+
+.need_help_box .text h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: medium;
+    text-align: left;
+    color: #fff;
+}
+
+.need_help_box .text p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.need_help_box .text {
+    display: flex;
+    flex-direction: column;
+    margin: 78.5px 0px;
+}
+
+.need_help_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    flex-wrap: wrap;
+}
+
+.join_to_us {
+    max-width: 1000px;
+    height: 472px;
+    margin: 100px auto 100px auto;
+    background: #FC552F;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    padding: 90.5px 40px;
+}
+
+.join_to_us h1 {
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: medium;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.join_to_us p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: medium;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.join_to_us .btn a {
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #000;
+    background: #fff;
+    text-decoration: none;
+    padding: 13px 50px;
+    border-radius: 15px 50px;
+    border: 2px #fff solid;
+}
+
+.join_to_us .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.bootstrap_slider {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ai_tool .ai_tool_btn .get_started_free:hover {
+    background: none;
+    color: #FB5530;
+    transition-duration: 0.2s;
+}
+
+.ai_tool .ai_tool_btn .explore_feature:hover {
+    background: #FB5530;
+    color: #fff;
+    transition-duration: 0.2s;
+}
+
+.need_help_box .btn a:hover {
+    background: #fff;
+    color: #000;
+    transition-duration: 0.2s;
+}
+
+.join_to_us .btn a:hover {
+    background: none;
+    color: #fff;
+    transition-duration: 0.2s;
+}
+
+
+@media screen and (max-width:710px) {
+    .user_experience_text{
+        width: 400px;
+    }
+    .user_experience .point{
+        margin-left: -25px;
+    }
+    .user_experience h1{
+        width: 400px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .user_experience .point h2{
+        width: 250px;
+    }
+    .user_experience .text{
+        max-width: 270px;
+    }
+    
+}
+
+@media screen and (max-width:530px) {
+    .user_experience_text{
+        width: 350px;
+        font-size: 16px;
+    }
+    .user_experience .point{
+        margin-left: 0px;
+    }
+    .user_experience h1{
+        width: 400px;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 40px;
+    }
+    .user_experience .point h2{
+        font-size: 20px;
+    }
+    .ico_daimond , .ico_medal , .ico_arrow{
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .user_experience_text{
+        width: 300px;
+        font-size: 15px;
+    }
+    .user_experience .point{
+        margin-left: 0px;
+    }
+    .user_experience h1{
+        width: 350px;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 38px;
+    }
+    .user_experience .point h2{
+        font-size: 18px;
+    }
+    .ico_daimond , .ico_medal , .ico_arrow{
+        width: 50px;
+        height: 50px;
+    }
+    .ai_tool_btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .get_started_free{
+        margin: 0px auto;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .explore_feature{
+        margin: 0px auto;
+        font-size: 14px;
+    }
+
+    .ai_tool_information h1{
+        font-size: 40px;
+        padding: 0px 10px;
+    }
+    .ai_tool_text p{
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+
+}
+
+@media screen and (max-width:410px) {
+    .user_experience_text{
+        width: 250px;
+        font-size: 15px;
+    }
+    .user_experience .point{
+        margin-left: 0px;
+    }
+    .user_experience h1{
+        width: 310px;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 38px;
+    }
+    .user_experience .point h2{
+        font-size: 18px;
+    }
+    .ico_daimond , .ico_medal , .ico_arrow{
+        width: 50px;
+        height: 50px;
+    }
+    .user_experience .text{
+        width: 370px;
+    }
+    .need_help_box .btn a{
+        font-size: 14px;
+        padding: 13px 28px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .need_help_box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 25px   ;
+    }
+    .need_help_box .text{
+        margin: 0px auto;
+       
+    }
+    .need_help_box .btn{
+        margin-top: 15px;
+    }
+    .need_help_box h2, .need_help_box p{
+        text-align: center;
+        margin: 5px auto;
+    }
+    #need_help_text, #need_help_title{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .join_to_us{
+        padding: 50px 40px;
+    }
+    .ai_tool{
+        background-size: 800px 364px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .join_to_us{
+        padding: 90px 40px;
+    }
+    .join_to_us h1{
+        font-size: 30px;
+    }
+    .join_to_us p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .join_to_us{
+        padding: 70px 40px;
+    }
+}
+
+
+@media screen and (max-width:390px) {
+    .join_to_us{
+        padding: 50px 40px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .join_to_us{
+        padding: 30px 40px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .ai_tool{
+        background-size: 700px 324px;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .ai_tool{
+        background-size: 600px 294px;
+    }
+}
